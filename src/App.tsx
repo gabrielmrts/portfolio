@@ -82,6 +82,7 @@ const App: React.FunctionComponent = () => {
             description='A site thats allow the author to publish and sell their book.' 
             technologies='Golang, Docker, Postgres'
             github='https://github.com/gabrielmrts/mybooks-golang-api'  
+            site='https://github.com/gabrielmrts/mybooks-react-ts-client'
           />
         </div>
       </div>

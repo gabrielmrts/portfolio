@@ -21,13 +21,13 @@ const ProjectCard: React.FunctionComponent<IProjectCardProps> = ({ title, descri
             <a href={github}>
                 <div className='flex flex-row text-[#61dafb] cursor-pointer'>
                     <GithubIcon />
-                    <h1 className='ml-1 font-bold'>Code</h1>
+                    <h1 className='ml-1 font-bold'>API Code</h1>
                 </div>
             </a>
             <a href={site}>
                 <div className='flex flex-row text-[#61dafb] ml-5 cursor-pointer'>
-                    <GlobeIcon />
-                    <h1 className='ml-1 font-bold'>Site</h1>
+                    <GithubIcon />
+                    <h1 className='ml-1 font-bold'>Client Code</h1>
                 </div>
             </a>
         </div>
