@@ -8,7 +8,7 @@ const App: React.FunctionComponent = () => {
     <div>
       <div className='w-full h-full flex flex-col items-center'>
         <h1 className='text-white text-4xl mt-[5rem] font-bold'>Gabriel Martins de Lima</h1>
-        <h3 className='text-[#61dafb] font-bold text-2xl'>Backend Developer</h3>
+        <h3 className='text-[#61dafb] font-bold text-2xl'>Software Engineer</h3>
 
         <Card className='flex flex-row mb-7 mt-2'>
           <a href="https://github.com/gabrielmrts">
@@ -56,14 +56,14 @@ const App: React.FunctionComponent = () => {
         </div>
 
         <div className='flex flex-row'>
-          <a href="/gabriel_martins_de_lima.pdf" download>
+          <a href="/gabriel-martins-de-lima.pdf" download>
             <Card className='w-[12rem] h-[5rem] text-center flex items-center justify-center border border-sky-500 cursor-pointer'>
               <FileTextIcon className='text-white' /> 
               <h1 className='text-white ml-2'>Portuguese.pdf</h1>
             </Card>
           </a>
 
-          <a href="/gabriel_martins_de_lima_en.pdf" download>
+          <a href="/gabriel-martins-de-lima-en.pdf" download>
             <Card className='w-[12rem] h-[5rem] ml-5 text-center flex items-center justify-center border border-sky-500 cursor-pointer'>
               <FileTextIcon className='text-white' />
               <h1 className='text-white ml-2'>English.pdf</h1>
